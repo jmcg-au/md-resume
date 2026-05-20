@@ -61,4 +61,4 @@ My most recent position has been as a digital marketing consultant for a Sydney-
 References available upon request.
 
 The latest version of this document, in its original Markdown format, can always can be found at the following URL:  
-https://raw.githubusercontent.com/jmcg-au/md-resume/refs/heads/default/resume.md
+https://raw.githubusercontent.com/jmcg-au/md-resume/raw/refs/heads/default/resume.md
