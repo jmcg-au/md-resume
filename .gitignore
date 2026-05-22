@@ -1,2 +1,4 @@
-resume.pdf
-resume.txt
+resume_human-readable.pdf
+resume_machine-readable.pdf
+resume_machine-readable_extracted.txt
+txt-to-pdf.py
