@@ -1,29 +1,39 @@
-.PHONY: all clean pdf extract-text
+.PHONY: all clean pdf human-readable machine-readable extract-text
 
 all: pdf
 
 clean:
 	$(RM) resume_human-readable.pdf resume_machine-readable.pdf resume_machine-readable_extracted.txt txt-to-pdf.py
 
-pdf: resume_human-readable.pdf resume_machine-readable.pdf
+pdf: human-readable machine-readable
+
+human-readable: resume_human-readable.pdf
+
+machine-readable: resume_machine-readable.pdf
 
 extract-text: resume_machine-readable_extracted.txt
 
 resume_human-readable.pdf: resume.md page-numbering-hack.tex
 	pandoc \
-          --from gfm --to pdf --pdf-engine pdflatex \
+	  --from gfm --to pdf --pdf-engine pdflatex \
 	  --include-in-header page-numbering-hack.tex \
-          --metadata title="Résumé" \
-          --metadata author="John McIntyre Grimau" \
+	  --metadata title="Résumé" \
+	  --metadata author="John McIntyre Grimau" \
+	  --metadata date="`date '+%B %Y'`" \
 	  --variable documentclass=article \
-          --variable papersize=a4 \
+	  --variable papersize=a4 \
+	  --variable margin-left=18mm \
+	  --variable margin-right=18mm \
+	  --variable margin-top=23mm \
+	  --variable margin-bottom=23mm \
+	  --variable fontsize=12pt \
 	  --variable pagestyle=empty \
-          --variable block-headings \
+	  --variable block-headings \
 	  --variable urlstyle=tt \
 	  --variable colorlinks \
-          --variable urlcolor=blue \
-          --variable citecolor=blue \
-          --output $@ $<
+	  --variable urlcolor=blue \
+	  --variable citecolor=blue \
+	  --output $@ $<
 
 resume_machine-readable.pdf: resume.md txt-to-pdf.py
 	python3 txt-to-pdf.py < $< > $@
