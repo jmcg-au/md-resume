@@ -23,7 +23,7 @@ of this document, see
 
 # Career history
 
-## Consultant at Helium (June 2021 – January 2025)
+## Software developer at Helium (June 2021 – January 2025)
 
 (Contracted to IAG from July 2021 – May 2024)
 
