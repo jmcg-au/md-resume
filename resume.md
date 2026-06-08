@@ -1,18 +1,10 @@
-This version of my résumé contains almost *every* job I've ever had,
-including the unglamorous, menial work. For the white-collar version
-of this document, see
-[the default branch of the repository on GitHub](https://github.com/jmcg-au/md-resume).
-
 # Key skills
 
-- Strong mathematical & analytical capabilities
-- Careful attention to detail
-- Clean, modular code with thorough documentation
-- Committed to improving solutions & cultivating innovation
-- Passion for life-long learning & teaching
+- Exquisite attention to detail
+- Deep commitment to workplace safety
 - Advanced written & verbal communication skills
-- Professional interaction in a customer/client-facing environment
-- Balancing workload while working both autonomously & collaboratively
+- Passion for life-long learning & teaching
+- Strong mathematical & analytical capabilities
 
 # Education & qualifications
 
@@ -25,42 +17,20 @@ of this document, see
 
 ## Software developer at Helium (June 2021 – January 2025)
 
-(Contracted to IAG from July 2021 – May 2024)
+(Contracted to Insurance Australia Group from July 2021 – May 2024)
 
-**TODO: make this shorter**
-
-### Responsibilities
-
-- Researching and analysing complex & technical documentation for
-  various internal software tools.  Authoring or amending existing
-  documentation where it was found to be missing or incorrect.
-- Reviewing web analytics code on a weekly basis, requiring careful
-  attention to detail and methodical analysis. By utilising an
-  object-oriented design framework, potential bugs and unforeseen
-  interactions with existing code could be caught before they were
-  deployed.
+- Maintaining documentation for various internal software tools;
+  authoring or amending existing documentation where it was found to
+  be missing or incorrect.
 - Gathering and interpreting business requirements by communicating
   with product owners to discuss analytics needs, and liaising with
   workers across different domains to understand how an application
   functions.
 - Translating high-level business requirements into a detailed design,
   conforming to technical & legal limitations.
-
-### Achievements
-
-- Designing & developing an innovative event-driven JavaScript
-  protocol (published as an NPM package for `node.js`) for
-  communicating analytics data from nested components of a web
-  application using “micro-front-end” architecture to a third-party
-  endpoint (Adobe Experience Platform).
--  Hardening existing code to properly handle & report unexpected
-  conditions. Refactoring code according to object-oriented design
-  principles.
-- Adding TypeScript definitions to existing libraries.
-- Creating unit tests to ensure full code coverage.
-- Assisting in migrating a codebase from AWS CodeCommit/CodeBuild to a
-  private GitHub enterprise project, and publishing JavaScript
-  packages to an internal NPM registry.
+- Writing and reviewing web analytics code; hardening existing code to
+  better handle & report unexpected conditions; refactoring code
+  according to object-oriented design principles.
 
 ## Tutor at Star Kids Tutoring (February 2018 – June 2021)
 
@@ -94,14 +64,17 @@ of this document, see
 
 ## Mechanist at Theatre Royal, Sydney (2016)
 
-- Moving stage scenery, furniture, and props according to a plot with
-  strict timing requirements
-- Utilising safe lifting techniques while being mindful of the safety
-  of cast and other crew members
+- Moving stage scenery, furniture, and props during a live performance
+  with strict timing requirements.
+- Practicing safe lifting & carrying techniques while being mindful of
+  the safety of cast and other crew members in a dynamic environment.
 
 ## Workshop assistant at National Institute of Dramatic Art (2016)
 
-**TODO**
+- Construction, transportation, and assembly of scenery for student
+  theatre productions.
+- Use of hand & power tools for carpentry & metalworking in a busy
+  workshop environment, with careful adherence to safety standards.
 
 ## Cashier at Hungry Jack's Sylvania (October 2014 – October 2015)
 
@@ -118,7 +91,7 @@ of this document, see
 
 ## Cleaner at Adelaide Motel & Backpackers (May – July 2014)
 
-- **TODO**
+- Daily cleaning of common areas & bathrooms in a backpacker hostel.
 
 ## Crew member at Mcdonalds Caringbah (October 2008 – May 2011)
 
@@ -126,8 +99,8 @@ of this document, see
   requests.
 - Maintaining a clean work environment and disposing of waste.
 - Performing standard routines for maintenance of workplace equipment.
-- Maintaining accurate records of product usage and loss.
-- Monitoring and maintaining high standard of workplace safety and
+- Keeping accurate records of product usage and loss.
+- Monitoring and maintaining high standards of workplace safety and
   food hygiene.
 
 ## Technical assistant for John Grimau (2006 – 2007)
