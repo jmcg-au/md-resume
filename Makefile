@@ -1,17 +1,15 @@
-.PHONY: all clean pdf human-readable machine-readable extract-text
+.PHONY: all clean pdf human-readable machine-readable
 
 all: pdf
 
 clean:
-	$(RM) resume_human-readable.pdf resume_machine-readable.pdf resume_machine-readable_extracted.txt txt-to-pdf.py
+	$(RM) resume_human-readable.pdf resume_machine-readable.pdf txt-to-pdf.py
 
 pdf: human-readable machine-readable
 
 human-readable: resume_human-readable.pdf
 
 machine-readable: resume_machine-readable.pdf
-
-extract-text: resume_machine-readable_extracted.txt
 
 resume_human-readable.pdf: resume.md page-numbering-hack.tex
 	pandoc \
@@ -37,9 +35,6 @@ resume_human-readable.pdf: resume.md page-numbering-hack.tex
 
 resume_machine-readable.pdf: resume.md txt-to-pdf.py
 	python3 txt-to-pdf.py < $< > $@
-
-resume_machine-readable_extracted.txt: resume_machine-readable.pdf
-	pdftotext -raw -layout -nopgbrk $< $@
 
 txt-to-pdf.py:
 	curl -s -o $@ -L 'https://github.com/ratter-au/py-txt-to-pdf/raw/refs/heads/main/txt-to-pdf.py'
