@@ -1,30 +1,31 @@
 # Summary
 
-My most recent position has been as a digital marketing consultant for
-a Sydney-based company focusing on personalisation at scale, and I am
-looking to take the next step in my career.
+Technical writer with a STEM background (BSc Physics/Mathematics) and four
+years' experience producing and maintaining technical documentation for
+engineering teams, including untangling and documenting legacy,
+multi-platform systems for a national insurer. Skilled at translating
+complex technical material into clear, audience-appropriate documentation
+that meets internal quality and compliance standards.
 
 - **GitHub:** [`jmcg-au`](https://github.com/jmcg-au)
 
 # Key skills
 
 - Strong mathematical & analytical capabilities
-- Careful attention to detail
-- Clean, modular code with thorough documentation
-- Committed to improving solutions & cultivating innovation
-- Passion for life-long learning & teaching
-- Advanced written & verbal communication skills
-- Professional interaction in a customer/client-facing environment
-- Balancing workload while working both autonomously & collaboratively
+- Technical & process documentation: authoring, auditing, and
+  maintaining documentation for undocumented or legacy systems
+- Requirements gathering: translating input from product owners and
+  cross-domain stakeholders into detailed technical specifications
+- Quality-oriented code review using object-oriented design principles
+  to flag defects and integration risks pre-deployment
+- Liaison between technical and non-technical stakeholders
+- JavaScript, TypeScript, NPM, GitHub, AWS
 
 # Education & qualifications
 
-- **Bachelor of Science (Physics/Mathematics)** from Sydney
-  University; graduated 2016
-- **Adobe Real-Time Customer Data Platform Business Practitioner
-  Professional**; certified 2024
-- **Working With Children Check** number WWC1443476E, valid for both
-  volunteer & paid work until 2030
+- **Bachelor of Science (Physics/Mathematics)**, Sydney University,
+  2016
+- **Adobe Real-Time CDP Business Practitioner Professional**, 2024
 
 # Career history
 
@@ -34,57 +35,46 @@ looking to take the next step in my career.
 
 ### Responsibilities
 
-- Researching and analysing complex & technical documentation for
-  various internal software tools.  Authoring or amending existing
-  documentation where it was found to be missing or incorrect.
-- Reviewing web analytics code on a weekly basis, requiring careful
-  attention to detail and methodical analysis. By utilising an
-  object-oriented design framework, potential bugs and unforeseen
-  interactions with existing code could be caught before they were
-  deployed.
-- Gathering and interpreting business requirements by communicating
-  with product owners to discuss analytics needs, and liaising with
-  workers across different domains to understand how an application
-  functions.
-- Translating high-level business requirements into a detailed design,
-  conforming to technical & legal limitations.
+- Researched, authored, and maintained technical documentation for
+  internal software tools spanning multiple analytics platforms (Google
+  Tag Manager, Tealium iQ, Adobe Experience Platform), supporting
+  migration and audit efforts.
+- Reviewed web analytics code weekly against an object-oriented design
+  framework, identifying and documenting defects and integration risks
+  pre-deployment.
+- Gathered and translated business requirements from product owners
+  and cross-domain stakeholders into detailed technical specifications,
+  accounting for technical and legal constraints.
 
 ### Achievements
 
-- Designing & developing an innovative event-driven JavaScript
-  protocol (published as an NPM package for `node.js`) for
-  communicating analytics data from nested components of a web
-  application using “micro-front-end” architecture to a third-party
-  endpoint (Adobe Experience Platform).
--  Hardening existing code to properly handle & report unexpected
-  conditions. Refactoring code according to object-oriented design
-  principles.
-- Adding TypeScript definitions to existing libraries.
-- Creating unit tests to ensure full code coverage.
-- Assisting in migrating a codebase from AWS CodeCommit/CodeBuild to a
-  private GitHub enterprise project, and publishing JavaScript
-  packages to an internal NPM registry.
+- Designed and documented an event-driven JavaScript protocol,
+  published as an NPM package, enabling analytics communication
+  between nested micro-frontend components and a third-party endpoint
+  (Adobe Experience Platform).
+- Hardened and refactored existing code to object-oriented design
+  principles; added TypeScript definitions and full unit test
+  coverage, improving maintainability for future engineers.
+- Documented and executed a codebase migration from AWS
+  CodeCommit/CodeBuild to GitHub Enterprise, including publishing
+  workflow to an internal NPM registry.
 
 ## Tutor at Star Kids Tutoring (February 2018 – June 2021)
 
 ### Responsibilities
 
-- Conducting face-to-face and virtual tutoring with students
-  (primary–tertiary).
-- Managing schedules for tutoring appointments.
-- Compiling lesson plans according to student needs.
-- Reviewing & reporting students' progress to parents/caregivers.
+- Delivered 1:1 tutoring in physics, mathematics, and related sciences to
+  students from primary through tertiary level, translating advanced
+  technical and scientific concepts into level-appropriate explanations.
+- Compiled tailored lesson plans and reported on student progress to
+  parents/caregivers.
 
 ### Achievements
 
-- Maintaining professional standards of communication in a challenging
-  environment.
-- Imparting valuable skills & knowledge to young learners.
+- Maintained professional communication standards across a demanding
+  client-facing schedule while adapting explanations to a wide range of
+  audiences and comprehension levels.
 
 ---
 
 References available upon request.
-
-The latest version of this document, in its original Markdown format,
-can always can be found at the following URL:  
-https://github.com/jmcg-au/md-resume/raw/refs/heads/default/resume.md
